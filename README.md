@@ -1,6 +1,8 @@
 # node-hpfeeds
 nodejs lib for subscribing to hpfeeds channels and using a callback for events
 
+I started with this script if you need a reference: https://github.com/rep/hpfeeds/blob/master/appsupport/javascript/index.js
+
 Example use
 ```javascript
 'use strict';
