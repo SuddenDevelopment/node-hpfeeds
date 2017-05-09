@@ -135,7 +135,7 @@ var HPC = function(host, port, ident, secret, strChannels, fnMsg) {
 			var payload = data.slice(1+1+l+l2);
 
 			try { var dec = JSON.parse(payload); }
-			catch (err) { console.log('json error', payload); }
+			catch (err) { console.log('json error', payload); return;}
 			console.log(m_chan,dec);
 			//send the message to the callback
 			fnMsg(m_chan,dec);
